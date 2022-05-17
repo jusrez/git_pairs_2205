@@ -11,6 +11,7 @@ class BankAccount
 
   def deposit(amount)
     @balance += amount
+		puts "Put the money in"
   end
 
   def withdraw(amount)
